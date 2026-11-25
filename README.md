@@ -6,10 +6,10 @@ RDBMS 기반 웹 애플리케이션의 스키마·서버 코드·API 설계 규�
 
 ```bash
 git clone https://github.com/gidul0491/db-api-design-guide.git ~/git/db-api-design-guide
-~/git/db-api-design-guide/install.sh
+node ~/git/db-api-design-guide/install.js
 ```
 
-`~/.claude/skills/db-api-design-guide` 에 `skill` 폴더가 링크된다. 새 대화부터 Claude Code 가 테이블 설계, 서버 계층, API 규약, 테스트, 외부 연동 명세서를 다룰 때 이 스킬을 읽는다.
+`~/.claude/skills/db-api-design-guide` 에 `skill` 폴더가 링크된다(윈도우는 폴더 링크인 junction). macOS·윈도우 모두 Node 가 필요하다. 새 대화부터 Claude Code 가 테이블 설계, 서버 계층, API 규약, 테스트, 외부 연동 명세서를 다룰 때 이 스킬을 읽는다.
 
 ## 구성
 
