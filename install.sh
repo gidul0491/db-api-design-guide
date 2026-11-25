@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Claude Code 가 이 스킬을 찾도록 ~/.claude/skills/web-app-design-guide 에 skill 폴더를 링크한다.
+# Claude Code 가 이 스킬을 찾도록 ~/.claude/skills/db-api-design-guide 에 skill 폴더를 링크한다.
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
-SKILL_LINK="$HOME/.claude/skills/web-app-design-guide"
+SKILL_LINK="$HOME/.claude/skills/db-api-design-guide"
 
 mkdir -p "$(dirname "$SKILL_LINK")"
 if [ -e "$SKILL_LINK" ] && [ ! -L "$SKILL_LINK" ]; then
